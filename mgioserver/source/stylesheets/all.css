@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
+  background: #fff;
   text-align: center;
   font-family: sans-serif; }
 
@@ -31,25 +31,31 @@ h1 {
     .doc a:hover {
       color: #666; }
 
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
+.header {
+  height: 60px;
+  border-bottom: 10px solid #E06F68;
+}
 
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
+.middle {
+  height: 250px;
+  border-top: 10px solid #CE4E38;
+}
+
+.map {}
+
+.newsletter {
+  border-bottom: 1px solid;
+}
+.tickets {
+  border-bottom: 1px solid;
+  min-height: 100px;
+}
+.sponsoren {
+  border-bottom: 1px solid;
+  min-height: 100px;
+}
+.footer {
+  display: block;
+  width: 100%;
+  border-bottom: 20px solid #CE4E38;
 }

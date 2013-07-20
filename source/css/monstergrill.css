@@ -47,7 +47,7 @@ h1, h2, h3 {
   height: 370px;
   overflow: hidden;
   color: #fff;
-  background-image:url('img/monstergrill-steak.png');
+  background-image:url('/img/monstergrill-steak.png');
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-position:center; 

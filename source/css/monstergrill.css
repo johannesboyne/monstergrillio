@@ -88,6 +88,9 @@ h1, h2, h3 {
   background-color: rgba(255,255,255,0.8);
   outline: 7px solid rgba(255,255,255,0.3);
   padding: 5px;
+  font-family: "sketchnote-square",sans-serif;
+  font-weight: 400;
+  color: #fff;
 }
 
 .map {

@@ -1,47 +1,103 @@
 @charset "utf-8";
+@font-face {
+  font-family: QlassikBold;
+  src: url('QlassikBold_TB.ttf'),
+       url('QlassikBold_TB.otf');
+}
 
-body {/*
-  background: #fff;
-  font-family: sans*/-serif; }
+body {
+  background: #fcfbf7;
+  color: #DD3441;
+}
 
-h1 {
-  color: rgba(0, 0, 0, .3);
-  font-weight: bold;
-  font-size: 32px;
-  letter-spacing: -1px;
+h1, h2, h3 {
+  font-family: QlassikBold, serif;
   text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
-  margin: 0; }
-
-/*.doc {
-  font-size: 14px;
-  margin: 0; }
-  .doc:before,
-  .doc:after {
-    opacity: .2;
-    padding: 6px;
-    font-style: normal;
-    position: relative;
-    content: "•"; }
-  .doc a {
-    color: rgba(0, 0, 0, 0.3); }
-    .doc a:hover {
-      color: #666; }*/
+}
 
 .header {
-  height: 60px;
-  border-bottom: 10px solid #E06F68;
+  height: 81px;
   text-align: center;
+}
+.innerheader {
+  display: block;
+  height: 80px;
+  width: 840px;
+  border-bottom: 1px dashed #DB2A35;
+  margin-left: auto;
+  margin-right: auto;
+}
+.innerheader h1 {
+  text-transform: capitalize;
 }
 
 .middle {
-  height: 250px;
-  border-top: 10px solid #CE4E38;
+  text-align: center;
+}
+.topmiddle {
+  padding-top: 10px;
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+.mainmiddle {
+  background: #DB2A35;
+  width: 100%;
+  color: #fff;
+}
+.mainmiddle .table {
+  width: 475px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainmiddle .table .left {
+  width: 33%;
+  text-align: left;
+}
+.mainmiddle .table .middle {
+  width: 33%;
+  text-align: center;
+}
+.mainmiddle .table .right {
+  width: 33%;
+  text-align: right;
+}
+.mainmiddle .ticketsection {
+  width: 475px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .map {}
+
+.aboutus {
+  width: 100%;
+  background: #F5F5EC;
+}
+.aboutus .inner {
+  display: block;
+  text-align: center;
+  width: 680px;
+  height: 555px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aboutus .inner h2 {
+  margin-top: 0px;
+  padding-top: 20px;
+}
+.aboutus .inner .profile {
+  width: 50%;
+  float: left;
+}
+.aboutus .inner .profile .profilepic {
+  display: block;
+  width: 155px; height: 155px;
+  background: #ccc;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .newsletter {
   border-bottom: 1px solid;
@@ -51,13 +107,26 @@ h1 {
   min-height: 100px;
   text-align: center;
 }
-.sponsoren {
-  border-bottom: 1px solid;
+.supporter {
   min-height: 100px;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.handcreatedfooter {
+  display: block;
+  height: 80px;
+  width: 840px;
+  border-top: 1px dashed #DB2A35;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer {
   display: block;
   width: 100%;
-  border-bottom: 20px solid #CE4E38;
+  height: 44px;
+  background: #E03B21;
   text-align: center;
+  color: #fff;
 }

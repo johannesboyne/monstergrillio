@@ -98,7 +98,7 @@ h1, h2, h3 {
 
 .aboutus {
   width: 100%;
-  background: #F5F5EC;
+  background: #F5F5EC url('/img/monstergrill-rost.png') 50% 50% no-repeat;
 }
 .aboutus .inner {
   display: block;

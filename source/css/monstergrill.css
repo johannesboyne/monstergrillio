@@ -13,6 +13,7 @@ body {
 h1, h2, h3 {
   font-family: QlassikBold, serif;
   text-transform: uppercase;
+  font-size: 30px;
 }
 
 .header {
@@ -35,12 +36,13 @@ h1, h2, h3 {
   text-align: center;
 }
 .topmiddle {
+  font-family: "ff-meta-web-pro", sans-serif;
+  font-size: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 840px;
   margin-left: auto;
   margin-right: auto;
-  font-family: sans-serif;
 }
 .mainmiddle {
   width: 100%;
@@ -111,6 +113,10 @@ h1, h2, h3 {
   width: 155px; height: 155px;
   margin-left: auto;
   margin-right: auto;
+}
+.aboutus .inner .profile .bio {
+  font-family: "ff-meta-web-pro", sans-serif;
+  font-size: 20px;
 }
 
 .newsletter {

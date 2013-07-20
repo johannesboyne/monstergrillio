@@ -16,12 +16,12 @@ h1, h2, h3 {
 }
 
 .header {
-  height: 81px;
+  height: 181px;
   text-align: center;
 }
 .innerheader {
   display: inner-block;
-  height: 80px;
+  height: 180px;
   width: 840px;
   border-bottom: 1px dashed #DB2A35;
   margin-left: auto;

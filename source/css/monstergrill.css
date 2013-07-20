@@ -35,35 +35,43 @@ h1, h2, h3 {
   text-align: center;
 }
 .topmiddle {
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 840px;
   margin-left: auto;
   margin-right: auto;
   font-family: sans-serif;
 }
 .mainmiddle {
-  background: #DB2A35;
   width: 100%;
+  height: 370px;
+  overflow: hidden;
   color: #fff;
 }
-.mainmiddle .table {
+.mainmiddle .inner {
+  display: block;
+  position: absolute;
+  top: 180px;
+  left: 0px; right: 0px; 
+}
+.mainmiddle .inner .table {
   width: 475px;
   margin-left: auto;
   margin-right: auto;
 }
-.mainmiddle .table .left {
+.mainmiddle .inner .table .left {
   width: 33%;
   text-align: left;
 }
-.mainmiddle .table .middle {
+.mainmiddle .inner .table .middle {
   width: 33%;
   text-align: center;
 }
-.mainmiddle .table .right {
+.mainmiddle .inner .table .right {
   width: 33%;
   text-align: right;
 }
-.mainmiddle .ticketsection {
+.mainmiddle .inner .ticketsection {
   width: 475px;
   margin-left: auto;
   margin-right: auto;
@@ -94,7 +102,6 @@ h1, h2, h3 {
 .aboutus .inner .profile .profilepic {
   display: block;
   width: 155px; height: 155px;
-  background: #ccc;
   margin-left: auto;
   margin-right: auto;
 }

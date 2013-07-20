@@ -89,6 +89,15 @@ h1, h2, h3 {
   outline: 7px solid rgba(255,255,255,0.3);
   padding: 5px;
 }
+input[type='email'] {
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  outline: none;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.4); 
+  border: 1px solid rgba(0,0,0,0.8);
+}
 
 .map {
   display: block;

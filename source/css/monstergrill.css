@@ -20,7 +20,7 @@ h1, h2, h3 {
   text-align: center;
 }
 .innerheader {
-  display: block;
+  display: inner-block;
   height: 80px;
   width: 840px;
   border-bottom: 1px dashed #DB2A35;

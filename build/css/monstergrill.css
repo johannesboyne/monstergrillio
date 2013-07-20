@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body {/*
+  background: #fff;
+  font-family: sans*/-serif; }
+
+h1 {
+  color: rgba(0, 0, 0, .3);
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  background: url("../images/middleman.png") no-repeat center 100px;
+  padding: 350px 0 10px;
+  margin: 0; }
+
+/*.doc {
+  font-size: 14px;
+  margin: 0; }
+  .doc:before,
+  .doc:after {
+    opacity: .2;
+    padding: 6px;
+    font-style: normal;
+    position: relative;
+    content: "•"; }
+  .doc a {
+    color: rgba(0, 0, 0, 0.3); }
+    .doc a:hover {
+      color: #666; }*/
+
+.header {
+  height: 60px;
+  border-bottom: 10px solid #E06F68;
+  text-align: center;
+}
+
+.middle {
+  height: 250px;
+  border-top: 10px solid #CE4E38;
+}
+
+.map {}
+
+.newsletter {
+  border-bottom: 1px solid;
+}
+.tickets {
+  border-bottom: 1px solid;
+  min-height: 100px;
+  text-align: center;
+}
+.sponsoren {
+  border-bottom: 1px solid;
+  min-height: 100px;
+}
+.footer {
+  display: block;
+  width: 100%;
+  border-bottom: 20px solid #CE4E38;
+  text-align: center;
+}

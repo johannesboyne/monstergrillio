@@ -9,14 +9,18 @@
         <!-- Use title if it's in the page YAML frontmatter -->
         <title>monstergrill.io - Das Startup Grillen</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
+        <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+        <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+        <!--[if lte IE 8]>
+          <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' >
+        <![endif]-->
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/monstergrill.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/szy5voj.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -25,81 +29,122 @@
 
         <!-- Header -->
 <section class='header'>
-  <div>monstergrill.io</div>
+  <div class='innerheader'>
+    <img alt="Monstergrill.io" src="/img/monstergrill-logo.png" />
+  </div>
 </section>
 
 <!-- Middle Section -->
 <section class='middle'>
   <div class='topmiddle'>MonsterBBQ ist ein Networking Event, welches sich an Gründer, Gründungsinteressierte, Selbstständige, Freelancer, Technologiebegeisterte, Maker oder anderweitige Kreative richtet.</div>
   <div class='mainmiddle'>
-    <h2>Save the Steak!</h2>
-    
-    <!-- Table -->
-    <div class='table'>
-      <div class='left'>
-        <span>Wo</span><br/>
-        <span>tba.</span>
-      </div>
-      <div class='middle'>
-        <span>28.08.2013</span><br/>
-        <span>18h Open Start</span>
-      </div>
-      <div class='right'>
-        <span>Eintritt</span><br/>
-        <span>10 Euro</span>
-      </div>
-    </div>
+    <div class='inner'>
+      <h2>Save the Steak!</h2>
+      
+      <!-- Table -->
+      <table class='table'>
+        <tr>
+          <td class='left'>
+            <span>Wo</span><br/>
+            <span>tba.</span>
+          </td>
+          <td class='middle'>
+            <span>28.08.2013</span><br/>
+            <span>18h Open Start</span>
+          </td>
+          <td class='right'>
+            <span>Eintritt</span><br/>
+            <span>10 Euro</span>
+          </td>
+        </tr>
+      </table>
 
-    <!-- Eventim Tickets -->
-    <div class='ticketsection'>
+      <!-- Eventim Tickets -->
+      <div class='ticketsection'>
+        <div id='mc_embed_signup' class='signup'>
+          <form action='http://boyne.us7.list-manage.com/subscribe/post?u=9dfe2ae530202cf543f23649c&amp;id=f08d2bbc57' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' class='validate' target='_blank' novalidate>
+            <div>
+              <p>
+                Um mehr Infos zu monstergrill.io zu bekommen, trag bitte Deine E-Mail Adresse ein!<br/>
+                Sobald der Termin bekannt ist, wirst Du sofort informiert ;-)
+              </p>
+              <div class='mc-field-group'>
+                <!-- <label for='mce-EMAIL'> E-Mail Adresse </label> -->
+                <input type='email' value='' name='EMAIL' class='required email' id='mce-EMAIL' placeholder='E-Mail Adresse'>
+                <div id='mce-responses' class='clear'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
+                  <div class='clear'>
+                    <!-- <input type='submit' value='Eintragen!' name='subscribe' id='mc-embedded-subscribe' class='button'> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Map Section -->
 <section class='map'>
-  <iframe width='100%', height='250', frameBorder='0', src='http://a.tiles.mapbox.com/v3/johannesboyne.map-nq2k0d15.html#16/51.9577/7.6148'></iframe>
+  <div id='map'>
+  </div>
+  <!-- <iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/johannesboyne.map-nq2k0d15.html#16/51.95770160370922/7.614727020263672'></iframe> -->
+  <!-- <iframe width='100%', height='250', frameBorder='0', src='http://a.tiles.mapbox.com/v3/johannesboyne.map-nq2k0d15.html#16/51.957371023955744/7.615177631378174'></iframe> -->
 </section>
 
-<!-- Newsletter -->
-<section class='newsletter'>
-  <!-- Begin MailChimp Signup Form -->
-  <div id='mc_embed_signup' class='signup'>
-    <form action='http://boyne.us7.list-manage.com/subscribe/post?u=9dfe2ae530202cf543f23649c&amp;id=f08d2bbc57' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' class='validate' target='_blank' novalidate>
-      <div>
-        <p>
-          Um mehr Infos zu monstergrill.io zu bekommen, trag bitte Deine E-Mail Adresse ein!
-        </p>
-        <div class='mc-field-group'>
-          <label for='mce-EMAIL'> E-Mail Adresse </label>
-          <input type='email' value='' name='EMAIL' class='required email' id='mce-EMAIL' placeholder='E-Mail Adresse'>
-          <div id='mce-responses' class='clear'>
-            <div class='response' id='mce-error-response' style='display:none'></div>
-            <div class='response' id='mce-success-response' style='display:none'></div>
-            <div class='clear'>
-              <input type='submit' value='Mehr Infos zu monstergrill bekommen!' name='subscribe' id='mc-embedded-subscribe' class='button'>
-            </div>
-          </div>
+<!-- About Us Section -->
+<section class='aboutus'>
+  <div class='inner'>
+    <h2>Über Uns</h2>
+    <div>
+      <div class='profile'>
+        <div class='profilepic'>
+          <img src="/img/monstergrill-peter-grosskopf.png" />
+          <!-- <img src="/img/monstergrill-peter-grosskopf-png"> -->
+        </div>
+        <h3>Peter Grosskopf</h3>
+        <div class="bio">
+          <p>Gründer/Geschäftsführer der Zweitag GmbH, einer Beratung für professionelles Software Engineering, die sich auf Technologien rund um Ruby on Rails spezialisiert hat. Vor Zweitag hat er als Freelance Webentwickler in Enterprise- (z.B. bei Victoria/Ergo und Celesio) und Start-Up-Projekten gearbeitet.</p>
         </div>
       </div>
-    </form>
+      <div class='profile'>
+        <div class='profilepic'>
+          <img src="/img/monstergrill-johannes-boyne.png" />
+          <!-- <img src="/img/monstergrill-peter-grosskopf-png"> -->
+        </div>
+        <h3>Johannes Boyne</h3>
+        <div class="bio">        
+          <p>Gründer von ARCHKOMM GmbH und I/O-Fanatiker, der die “Unix Philosophie” als Nachtlektüre hat. Als Startup Gründer, Berater und Entwickler von IT- und Cloud-Systemen ist er seit einigen Jahren in der Entwicklungsszene um und in NRW aktiv.</p>
+        </div>
+      </div>
+    </div>
   </div>
-  <!-- End mc_embed_signup -->
 </section>
 
-<!-- Tickets -->
-<section class='tickets'>
-  <div>Tickets</div>
+<!-- Supporter -->
+<section class='supporter'>
+  <h2>Supporter</h2>
+  <img src="/img/monstergrill-sponsor-dummy.png" />
+  <img src="/img/monstergrill-sponsor-dummy.png" />
+  <img src="/img/monstergrill-sponsor-dummy.png" />
+  <img src="/img/monstergrill-sponsor-dummy.png" />
 </section>
 
-<!-- Sponsor -->
-<section class='sponsoren'>
-  <div>SPONSOREN</div>
+<!-- <3 -->
+<section class='handcreatedfooter'>
+  <div class="made-with-love">
+    <img src="/img/made-with-love-in-muenster.png" />
+  </div>
 </section>
 
 <!-- Footer -->
 <section class='footer'>
-  <div>Handcrafted with love in Münster</div>
+  <p>
+    <b>Kontakt:</b> 0151-22657236 - <a href="mailto:steak@monstergrill.io" class="contact-link">steak@monstergrill.io</a>
+  </p>
 </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>

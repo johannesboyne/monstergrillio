@@ -83,14 +83,38 @@ h1, h2, h3 {
   width: 475px;
   margin-left: auto;
   margin-right: auto;
-  color: #333;
+  color: #f2f2f2;
   opacity: 1;
-  background-color: rgba(255,255,255,0.8);
+  /*background-color: rgba(255,255,255,0.8);*/
+    
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.95));
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.95));
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.95));
+  background-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0.9)), to(rgba(0,0,0,0.95)));
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.95));
+  background-image: linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.95));
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+
   outline: 7px solid rgba(255,255,255,0.3);
   padding: 5px;
   font-family: "sketchnote-square",sans-serif;
   font-weight: 400;
   color: #fff;
+}
+input[type='email'] {
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  width: 90%;
+  margin-bottom: 16px;
 }
 
 .map {

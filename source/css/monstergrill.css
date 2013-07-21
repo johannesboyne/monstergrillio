@@ -37,10 +37,10 @@ h1, h2, h3 {
 }
 .topmiddle {
   font-family: "ff-meta-web-pro", sans-serif;
-  font-size: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 840px;
+  font-size: 22px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 880px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -54,6 +54,7 @@ h1, h2, h3 {
   background-image:url('/img/monstergrill-steak.png');
   background-repeat:no-repeat;
   background-position: center 42%;
+  border-bottom: 6px solid rgba(200, 200, 200, .4);
 }
 .mainmiddle .inner {
   opacity: 1;

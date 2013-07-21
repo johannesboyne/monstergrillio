@@ -162,6 +162,9 @@ input[type='email'] {
   text-align: center;
   margin-bottom: 40px;
 }
+.supporter img {
+  cursor: pointer;
+}
 .handcreatedfooter {
   display: block;
   height: 100px;

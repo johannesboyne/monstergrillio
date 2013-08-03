@@ -34,6 +34,10 @@ h1, h2, h3 {
 
 .middle {
   text-align: center;
+  background-size: 1608px 1181px;
+  background-image:url('/img/monstergrill-steak-top.png');
+  background-repeat:no-repeat;
+  background-position: center 33%;
 }
 .topmiddle {
   font-family: "ff-meta-web-pro", sans-serif;

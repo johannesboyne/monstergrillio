@@ -1,54 +1,34 @@
-\---
+---
 title: monstergrill.io - Das Gründer Grillen
-\---
-/ Header
+---
 %section.header
   .innerheader
-    = image_tag 'monstergrill-logo.png', :alt => "Monstergrill.io"
-/ Middle Section
+    = link_to(image_tag('monstergrill-logo.png', :alt => "Monstergrill.io"), "/")
 %section.middle
   .topmiddle Monstergrill.io ist ein Networking Event, welches sich an Gründer, Gründungsinteressierte, Selbstständige, Freelancer, Technologiebegeisterte, Maker oder anderweitige Kreative richtet.
   .mainmiddle
     .inner
       %h2 Save the Steak!
-      / Table
-      %table.table
-        %tr
-          %td.left
-            %span.head Wo
-            %br/
-            %span Skybar2 am Aasee
-          %td.middle
-            %span.head 28.08.2013
-            %br/
-            %span 18h Open Start
-          %td.right
-            %span.head Eintritt
-            %br/
-            %span 10 Euro
-      / Eventim Tickets
+      .save-the-steak
+        28.08.2013 - ab 18h 
+        %br
+        = link_to "Skybar ", "http://www.a2amsee.de/skybar/main_skybar.htm"
+        am Aasee - Eintritt 10 EUR
       .ticketsection
         #mc_embed_signup.signup
           %form#mc-embedded-subscribe-form.validate{:action => "http://boyne.us7.list-manage.com/subscribe/post?u=9dfe2ae530202cf543f23649c&amp;id=f08d2bbc57", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
             %div
               %p
                 Um mehr Infos zu monstergrill.io zu bekommen, trag bitte Deine E-Mail Adresse ein!
-                %br/
-                Sobald der Termin bekannt ist, wirst Du sofort informiert ;-)
               .mc-field-group
-                / <label for='mce-EMAIL'> E-Mail Adresse </label>
                 %input#mce-EMAIL.required.email{:name => "EMAIL", :placeholder => "E-Mail Adresse", :type => "email", :value => ""}/
                 %input#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", :value => "Eintragen!"}/
                 #mce-responses.clear
                   #mce-error-response.response{:style => "display:none"}
                   #mce-success-response.response{:style => "display:none"}
                   .clear
-/ Map Section
 %section.map
   #map
-  / <iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/johannesboyne.map-nq2k0d15.html#16/51.95770160370922/7.614727020263672'></iframe>
-  / <iframe width='100%', height='250', frameBorder='0', src='http://a.tiles.mapbox.com/v3/johannesboyne.map-nq2k0d15.html#16/51.957371023955744/7.615177631378174'></iframe>
-/ About Us Section
 %section.aboutus
   .inner
     %h2 Über Uns
@@ -56,20 +36,25 @@ title: monstergrill.io - Das Gründer Grillen
       .profile
         .profilepic
           = image_tag 'monstergrill-peter-grosskopf.png'
-          / <img src="/img/monstergrill-peter-grosskopf-png">
         %h3 Peter Grosskopf
         .bio
-          %p Gründer/Geschäftsführer der Zweitag GmbH, einer Beratung für professionelles Software Engineering, die sich auf Technologien rund um Ruby on Rails spezialisiert hat. Vor Zweitag hat er als Freelance Webentwickler in Enterprise- (z.B. bei Victoria/Ergo und Celesio) und Start-Up-Projekten gearbeitet.
+          %p Gründer/Geschäftsführer der Zweitag GmbH, einer Beratung für professionelles Software Engineering, welche sich auf Technologien rund um Ruby on Rails spezialisiert hat. Vor Zweitag hat er als Freelance Webentwickler in Enterprise- (z.B. bei Victoria/Ergo und Celesio) und Start-Up-Projekten gearbeitet.
           %p
-            %iframe.twitter-follow-button.twitter-follow-button{:allowtransparency => "true", "data-twttr-rendered" => "true", :frameborder => "0", :scrolling => "no", :src => "https://platform.twitter.com/widgets/follow_button.1374787011.html#_=1375393135011&amp;align=right&amp;id=twitter-widget-1&amp;lang=en&amp;partner=undefined&amp;screen_name=peterlih&amp;show_count=false&amp;show_screen_name=true&amp;size=m", :style => "width: 112px; height: 20px;", :title => "Twitter Follow Button"}
+            = link_to "Twitter", "https://twitter.com/peterlih", :class => "social"
+            %br
+            = link_to "Xing", "https://www.xing.com/profiles/Peter_Grosskopf", :class => "social"
       .profile
         .profilepic
           = image_tag 'monstergrill-johannes-boyne.png'
-          / <img src="/img/monstergrill-peter-grosskopf-png">
         %h3 Johannes Boyne
         .bio
           %p Gründer von ARCHKOMM GmbH und I/O-Fanatiker, der die “Unix Philosophie” als Nachtlektüre hat. Als Startup Gründer, Berater und Entwickler von IT- und Cloud-Systemen ist er seit einigen Jahren in der Entwicklungsszene um und in NRW aktiv.
-/ Supporter
+          %p
+            %br
+            = link_to "Twitter", "https://twitter.com/johannesboyne", :class => "social"
+            %br
+            = link_to "Xing", "https://www.xing.com/profiles/Johannes_Boyne", :class => "social"
+
 %section.supporter
   %h2 Supporter
   = image_tag 'monstergrill-sponsor-dummy.png', :onclick =>'javascript: window.location.href = "mailto:steak@monstergrill.io";'
@@ -80,7 +65,6 @@ title: monstergrill.io - Das Gründer Grillen
 %section.handcreatedfooter
   .made-with-love
     = image_tag 'made-with-love-in-muenster.png'
-/ Footer
 %section.footer
   %p
     %b Kontakt:

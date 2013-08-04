@@ -147,7 +147,27 @@ input[type='email'] {
 
 #map {
   width: 100%;
-  height: 250px;
+  height: 360px;
+}
+
+.mission {
+  width: 100%;
+  bbackground-color: #EBEBDD;
+  background: transparent url('/img/monstergrill-steak-small.png') 50% 50% repeat;
+  .inner {
+    display: block;
+    text-align: center;
+    width: 840px;
+    height: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "ff-meta-web-pro", sans-serif;
+    font-size: 18px;
+    h2 {
+      margin-top: 0px;
+      padding-top: 20px;
+    }
+  }  
 }
 
 .aboutus {

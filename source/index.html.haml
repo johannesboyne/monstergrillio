@@ -1,11 +1,11 @@
 ---
-title: monstergrill.io - Das Gründer Grillen
+title: monstergrill.io - Das Gründer Grillen in Münster
 ---
 %section.header
   .innerheader
     = link_to(image_tag('monstergrill-logo.png', :alt => "Monstergrill.io"), "/")
 %section.middle
-  .topmiddle Monstergrill.io ist ein Networking Event, welches sich an Gründer, Gründungsinteressierte, Selbstständige, Freelancer, Technologiebegeisterte, Maker oder anderweitige Kreative richtet.
+  .topmiddle Monstergrill.io ist ein Networking Event, welches sich an Gründer, Gründungsinteressierte, Selbstständige, Freelancer, Technologiebegeisterte, Maker und anderweitig Kreative richtet.
   .mainmiddle
     .inner
       %h2 Save the Steak!
@@ -29,6 +29,18 @@ title: monstergrill.io - Das Gründer Grillen
                   .clear
 %section.map
   #map
+%section.mission
+  .inner
+    %h2 Mission
+    %div
+      %p Münster ist bekannt für Fahrräder, Studenten, Tretboote in Schwan-Form, Uni, Aasee und seine historische Altstadt. Münster ist aber auch eine Stadt für technologiebegeisterte Kreative. 
+      
+      %p Mit dem Event möchten wir Gründer, Gründungsinteressierte, Selbstständige, Freelancer, Technologiebegeisterte, Maker und anderweitig Kreative aus Münster zusammen bringen, damit neue Ideen entstehen können. 
+
+      %p Monstergrill ist im Prinzip ein Barbecue + Networking für 50-60 Personen und soll am 28.08.2013 um 18:00 Uhr auf der Skybar des A2 am Assee stattfinden.
+      
+      %p Das BBQ wird Steaks, Bier und weitere Häppchen beinhalten, damit alle Teilnehmer genug Energie fürs Netzwerken haben. 
+
 %section.aboutus
   .inner
     %h2 Über Uns
@@ -38,7 +50,10 @@ title: monstergrill.io - Das Gründer Grillen
           = image_tag 'monstergrill-peter-grosskopf.png'
         %h3 Peter Grosskopf
         .bio
-          %p Gründer/Geschäftsführer der Zweitag GmbH, einer Beratung für professionelles Software Engineering, welche sich auf Technologien rund um Ruby on Rails spezialisiert hat. Vor Zweitag hat er als Freelance Webentwickler in Enterprise- (z.B. bei Victoria/Ergo und Celesio) und Start-Up-Projekten gearbeitet.
+          %p 
+            Gründer/Geschäftsführer der 
+            = link_to "Zweitag GmbH", "http://www.zweitag.de/en", :class => "social"
+            , einer Beratung für professionelles Software Engineering, welche sich auf Technologien rund um Ruby on Rails spezialisiert hat. Vor Zweitag hat er als Freelance Webentwickler in Enterprise- (z.B. bei Victoria/Ergo und Celesio) und Start-Up-Projekten gearbeitet.
           %p
             = link_to "Twitter", "https://twitter.com/peterlih", :class => "social"
             %br
@@ -48,7 +63,10 @@ title: monstergrill.io - Das Gründer Grillen
           = image_tag 'monstergrill-johannes-boyne.png'
         %h3 Johannes Boyne
         .bio
-          %p Gründer von ARCHKOMM GmbH und I/O-Fanatiker, der die “Unix Philosophie” als Nachtlektüre hat. Als Startup Gründer, Berater und Entwickler von IT- und Cloud-Systemen ist er seit einigen Jahren in der Entwicklungsszene um und in NRW aktiv.
+          %p 
+            Gründer der 
+            = link_to "ARCHKOMM GmbH", "http://www.archkomm.com/", :class => "social" 
+            und I/O-Fanatiker, der die “Unix Philosophie” als Nachtlektüre hat. Als Startup Gründer, Berater und Entwickler von IT- und Cloud-Systemen ist er seit einigen Jahren in der Entwicklungsszene um und in NRW aktiv.
           %p
             %br
             = link_to "Twitter", "https://twitter.com/johannesboyne", :class => "social"

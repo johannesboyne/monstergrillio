@@ -251,7 +251,8 @@ input[type='email'] {
 
   .aboutus .inner {
     width: 90%;
-    margin: 0px auto; }
+    margin: 0px auto;
+    height: 1020px; }
 
   .aboutus .inner .profile {
     width: 90%;
@@ -263,3 +264,6 @@ input[type='email'] {
 
   .handcreatedfooter {
     width: 100%; } }
+@media screen and (max-width: 524px) {
+  .aboutus .inner {
+    height: 1111px; } }

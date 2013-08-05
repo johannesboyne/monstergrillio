@@ -311,6 +311,12 @@ input[type='email'] {
 
 @media screen and (max-width: 524px) {
   .aboutus .inner {
-    height: 1111px;
+    height: 1190px;
+  }
+}
+
+@media screen and (max-width: 362px) {
+  .aboutus .inner {
+    height: 1245px;
   }
 }

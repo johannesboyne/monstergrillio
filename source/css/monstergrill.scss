@@ -78,19 +78,22 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     .save-the-steak {
-      line-height: 1.2;
+      line-height: 1.1;
       font-family: QlassikBold, serif;
       text-shadow: 3px 2px rgba(0,0,0,0.6);
       color: #F7FBFF;
       text-transform: uppercase;
-      font-size: 35px;
+      font-size: 30px;
       margin: auto;
-      width: 675px;
+      width: 695px;
       background-color: rgba(221,90,98,0.3);
-      padding: 20px;
+      padding: 10px;
       a {
         color: #E7F5FF;
       }
+    }
+    .eventbrite {
+      padding-top: 10px;
     }
     .ticketsection {
       position: relative;

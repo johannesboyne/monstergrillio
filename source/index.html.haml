@@ -79,9 +79,9 @@ title: monstergrill.io - Das Gründer Grillen in Münster
 
 %section.supporter
   %h2 Supporter
-  = image_tag 'supporter-a2.jpg', :onclick =>'javascript: window.location.href = "http://a2amsee.de";', :alt => "A2 am Aasee Supporter"
-  = image_tag 'supporter-zweitag.png', :onclick =>'javascript: window.location.href = "http://zweitag.de";', :alt => "Zweitag Supporter"
-  = image_tag 'monstergrill-sponsor-dummy.png', :onclick =>'javascript: window.location.href = "mailto:steak@monstergrill.io";'
+  = link_to(image_tag('supporter-a2.jpg', :alt => "A2 am Aasee"), "http://a2amsee.de")
+  = link_to(image_tag('supporter-zweitag.png', :alt => "Zweitag"), "http://www.zweitag.de")
+  = link_to(image_tag('supporter-daa.png', :alt => "DAA"), "http://www.daa.net/")
   = image_tag 'monstergrill-sponsor-dummy.png', :onclick =>'javascript: window.location.href = "mailto:steak@monstergrill.io";'
 / <3
 %section.handcreatedfooter

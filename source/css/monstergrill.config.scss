@@ -1,0 +1,43 @@
+// Monstergrill.io Main SCSS Config
+
+// body background color
+$bodyBackgroundColor: #fcfbf7;
+// body font color
+$bodyFontColor: #DD3441;
+// top line (under the logo)
+$topDashedLineColor: #DB2A35;
+// steak (used to be the big opague steak)
+$bigtopBackgroundImage: url('/img/monstergrill-steak-top.png');
+// steak (used to be the big colorful steak)
+$bigTopMiddelBackgroundImage: url('/img/monstergrill-steak.png');
+// main bottom border 
+$mainMiddleBorderBottom: 6px solid rgba(200, 200, 200, 0.4);
+// save-the-steak-color
+$saveTheSteakColor: #F7FBFF;
+// save-the-steak-background
+$saveTheSteakBackgroundColor: rgba(221,90,98,0.3);
+// save-the-steak-link-color
+$saveTheSteakLinkColor: #E7F5FF;
+// ticketsection-color
+$ticketsectionColor: #f2f2f2;
+// ticketsection-BackgroundColor
+$ticketsectionBackgroundColor: #C2464F;
+// newsletter-subscription-background
+$newsletterSubscriptionBackgroundColor: #DCCBBC;
+$newsletterSubscriptionBackgroundColorHover: #fff;
+// mission-background-color
+$missionBackgroundColor: #EBEBDD;
+// mission-background
+$missionBackground: transparent url('/img/monstergrill-steak-small.png') 50% 50% repeat;
+// about-us-background
+$aboutUsBackground: #f5f5ec url('/img/monstergrill-rost.png') 50% 50% no-repeat;
+// about-us-social-links
+$aboutUsSocialLinks: red;
+// handcrafted with <3 in Münster
+$handcraftedBorderTop: 1px dashed #DB2A35;
+// footer-background
+$footerBackground: #E03B21;
+// footer-font-color
+$footerColor: #fff;
+// footer-contact-link-color
+$footerContactColor: #fff;

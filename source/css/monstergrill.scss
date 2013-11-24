@@ -1,3 +1,4 @@
+@import "monstergrill.config";
 @charset "utf-8";
 
 @font-face {
@@ -7,8 +8,8 @@
 
 
 body {
-  background: #fcfbf7;
-  color: #DD3441;
+  background: $bodyBackgroundColor;
+  color: $bodyFontColor;
 }
 
 h1, h2, h3 {
@@ -33,7 +34,7 @@ h3 {
   display: inner-block;
   height: 180px;
   width: 840px;
-  border-bottom: 1px dashed #DB2A35;
+  border-bottom: 1px dashed $topDashedLineColor;
   margin-left: auto;
   margin-right: auto;
   h1 {
@@ -44,7 +45,7 @@ h3 {
 .middle {
   text-align: center;
   background-size: 1608px 1181px;
-  background-image: url('/img/monstergrill-steak-top.png');
+  background-image: $bigtopBackgroundImage;
   background-repeat: no-repeat;
   background-position: center 33%;
 }
@@ -68,10 +69,10 @@ h3 {
   font-size: 18px;
   opacity: 0.7;
   background-size: 1604px 1181px;
-  background-image: url('/img/monstergrill-steak.png');
+  background-image: $bigTopMiddelBackgroundImage;
   background-repeat: no-repeat;
   background-position: center 42%;
-  border-bottom: 6px solid rgba(200, 200, 200, 0.4);
+  border-bottom: $mainMiddleBorderBottom;
   .inner {
     opacity: 1;
     display: block;
@@ -81,15 +82,15 @@ h3 {
       line-height: 1.1;
       font-family: QlassikBold, serif;
       text-shadow: 3px 2px rgba(0,0,0,0.6);
-      color: #F7FBFF;
+      color: $saveTheSteakColor;
       text-transform: uppercase;
       font-size: 30px;
       margin: auto;
       width: 695px;
-      background-color: rgba(221,90,98,0.3);
+      background-color: $saveTheSteakBackgroundColor;
       padding: 10px;
       a {
-        color: #E7F5FF;
+        color: $saveTheSteakLinkColor;
       }
     }
     .eventbrite {
@@ -101,10 +102,10 @@ h3 {
       width: 705px;
       margin-left: auto;
       margin-right: auto;
-      color: #f2f2f2;
+      color: $ticketsectionColor;
       opacity: 1;
       padding: 5px;
-      background-color: #C2464F;
+      background-color: $ticketsectionBackgroundColor;
     }
   }
 }
@@ -136,9 +137,9 @@ input[type='email'] {
   -webkit-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 0px;
   margin-bottom: 16px;
-  background-color: #DCCBBC;
+  background-color: $newsletterSubscriptionBackgroundColor;
   &:hover {
-    background-color: #fff;
+    background-color: $newsletterSubscriptionBackgroundColorHover;
     border-left: 1px dashed #ccc;
   }
 }
@@ -155,8 +156,8 @@ input[type='email'] {
 
 .mission {
   width: 100%;
-  bbackground-color: #EBEBDD;
-  background: transparent url('/img/monstergrill-steak-small.png') 50% 50% repeat;
+  background-color: $missionBackgroundColor;
+  background: $missionBackground;
   .inner {
     display: block;
     text-align: center;
@@ -175,7 +176,7 @@ input[type='email'] {
 
 .aboutus {
   width: 100%;
-  background: #f5f5ec url('/img/monstergrill-rost.png') 50% 50% no-repeat;
+  background: $aboutUsBackground;
   .inner {
     display: block;
     text-align: center;
@@ -203,7 +204,7 @@ input[type='email'] {
       }
     }
     a.social {
-      color: red;
+      color: $aboutUsSocialLinks;
       font-weight: 700;
       &:hover {
         text-decoration: none;
@@ -240,7 +241,7 @@ input[type='email'] {
   display: block;
   height: 100px;
   width: 840px;
-  border-top: 1px dashed #DB2A35;
+  border-top: $handcraftedBorderTop;
   margin-left: auto;
   margin-right: auto;
   .made-with-love {
@@ -253,13 +254,13 @@ input[type='email'] {
 .footer {
   display: block;
   width: 100%;
-  background: #E03B21;
+  background: $footerBackground;
   text-align: center;
-  color: #fff;
+  color: $footerColor;
   padding: 5px;
   font-family: "ff-meta-web-pro", sans-serif;
   .contact-link {
-    color: #fff;
+    color: $footerContactColor;
     padding: 0px 5px;
     &:hover {
       text-decoration: none;

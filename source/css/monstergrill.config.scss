@@ -1,42 +1,42 @@
 // Monstergrill.io Main SCSS Config
 
 // body background color
-$bodyBackgroundColor: #fcfbf7;
+$bodyBackgroundColor: #F8FCF7;
 // body font color
-$bodyFontColor: #DD3441;
+$bodyFontColor: #27AE60;
 // top line (under the logo)
-$topDashedLineColor: #DB2A35;
+$topDashedLineColor: #27AE60;
 // steak (used to be the big opague steak)
-$bigtopBackgroundImage: url('/img/monstergrill-steak-top.png');
+$bigtopBackgroundImage: url('/img/monstergrill-leaf-top.png');
 // steak (used to be the big colorful steak)
-$bigTopMiddelBackgroundImage: url('/img/monstergrill-steak.png');
+$bigTopMiddelBackgroundImage: url('/img/monstergrill-leaf.png');
 // main bottom border 
 $mainMiddleBorderBottom: 6px solid rgba(200, 200, 200, 0.4);
 // save-the-steak-color
 $saveTheSteakColor: #F7FBFF;
 // save-the-steak-background
-$saveTheSteakBackgroundColor: rgba(221,90,98,0.3);
+$saveTheSteakBackgroundColor: rgba(121,90,98,0.3);
 // save-the-steak-link-color
-$saveTheSteakLinkColor: #E7F5FF;
+$saveTheSteakLinkColor: #fff;
 // ticketsection-color
 $ticketsectionColor: #f2f2f2;
 // ticketsection-BackgroundColor
-$ticketsectionBackgroundColor: #C2464F;
+$ticketsectionBackgroundColor: #27AE60;
 // newsletter-subscription-background
 $newsletterSubscriptionBackgroundColor: #DCCBBC;
 $newsletterSubscriptionBackgroundColorHover: #fff;
 // mission-background-color
 $missionBackgroundColor: #EBEBDD;
 // mission-background
-$missionBackground: transparent url('/img/monstergrill-steak-small.png') 50% 50% repeat;
+$missionBackground: transparent url('/img/monstergrill-leaf-small.png') 50% 50% repeat;
 // about-us-background
-$aboutUsBackground: #f5f5ec url('/img/monstergrill-rost.png') 50% 50% no-repeat;
+$aboutUsBackground: #f5f5ec url('/img/monstergrill-brkl.png') 50% 50% no-repeat;
 // about-us-social-links
-$aboutUsSocialLinks: red;
+$aboutUsSocialLinks: #27AE60;
 // handcrafted with <3 in Münster
-$handcraftedBorderTop: 1px dashed #DB2A35;
+$handcraftedBorderTop: 1px dashed #27AE60;
 // footer-background
-$footerBackground: #E03B21;
+$footerBackground: #27AE60;
 // footer-font-color
 $footerColor: #fff;
 // footer-contact-link-color

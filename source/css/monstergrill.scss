@@ -154,6 +154,45 @@ input[type='email'] {
   height: 360px;
 }
 
+@keyframes myfirst
+{
+  from {background: $bodyFontColor;}
+  to {background: $bodyBackgroundColor;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+  from {background: $bodyFontColor;}
+  to {background: $bodyBackgroundColor;}
+}
+
+.delicious {
+  width: 100%;
+  display: block;
+  text-align: center;
+  width: 840px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "ff-meta-web-pro", sans-serif;
+  font-size: 18px;
+
+  .highlighted {
+    animation: myfirst 1.5s;
+    -webkit-animation: myfirst 1.5s; /* Safari and Chrome */
+  }
+  ul, li {
+    list-style: none;
+    list-style-image: none;
+  }
+  button {
+    outline: none;
+    background-color: $bodyBackgroundColor;
+    border: $mainMiddleBorderBottom;
+  }  
+}
+
 .mission {
   width: 100%;
   background-color: $missionBackgroundColor;

@@ -171,8 +171,7 @@ input[type='email'] {
   display: block;
   text-align: center;
   width: 840px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   font-family: "ff-meta-web-pro", sans-serif;
@@ -182,6 +181,10 @@ input[type='email'] {
     animation: myfirst 1.5s;
     -webkit-animation: myfirst 1.5s; /* Safari and Chrome */
   }
+  h2 {
+      margin-top: 0px;
+      padding-top: 20px;
+    }
   ul, li {
     list-style: none;
     list-style-image: none;

@@ -189,6 +189,14 @@ input[type='email'] {
     list-style: none;
     list-style-image: none;
   }
+  li {
+    &:first-child {
+      font-weight: bold;
+      :before {
+        content: "Dein Gericht: ";
+      }
+    }
+  }
   button {
     outline: none;
     background-color: $bodyBackgroundColor;

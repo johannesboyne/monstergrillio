@@ -149,12 +149,66 @@ input[type='email'] {
   width: 100%;
   height: 360px; }
 
-/* line 157, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+@keyframes myfirst {
+  /* line 159, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  from {
+    background: #27ae60; }
+
+  /* line 160, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  to {
+    background: #f8fcf7; } }
+
+@-webkit-keyframes myfirst {
+  /* line 165, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  from {
+    background: #27ae60; }
+
+  /* line 166, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  to {
+    background: #f8fcf7; } }
+
+/* line 169, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+.delicious {
+  width: 100%;
+  display: block;
+  text-align: center;
+  width: 840px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "ff-meta-web-pro", sans-serif;
+  font-size: 18px; }
+  /* line 180, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  .delicious .highlighted {
+    animation: myfirst 1.5s;
+    -webkit-animation: myfirst 1.5s;
+    /* Safari and Chrome */ }
+  /* line 184, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  .delicious h2 {
+    margin-top: 0px;
+    padding-top: 20px; }
+  /* line 188, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  .delicious ul, .delicious li {
+    list-style: none;
+    list-style-image: none; }
+  /* line 193, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  .delicious li:first-child {
+    font-weight: bold; }
+    /* line 195, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+    .delicious li:first-child :before {
+      content: "Dein Gericht: "; }
+  /* line 200, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  .delicious button {
+    outline: none;
+    background-color: #f8fcf7;
+    border: 6px solid rgba(200, 200, 200, 0.4); }
+
+/* line 207, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
 .mission {
   width: 100%;
   background-color: #ebebdd;
   background: transparent url("/img/monstergrill-leaf-small.png") 50% 50% repeat; }
-  /* line 161, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 211, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .mission .inner {
     display: block;
     text-align: center;
@@ -164,16 +218,16 @@ input[type='email'] {
     margin-right: auto;
     font-family: "ff-meta-web-pro", sans-serif;
     font-size: 18px; }
-    /* line 170, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+    /* line 220, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
     .mission .inner h2 {
       margin-top: 0px;
       padding-top: 20px; }
 
-/* line 177, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+/* line 227, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
 .aboutus {
   width: 100%;
   background: #f5f5ec url("/img/monstergrill-brkl.png") 50% 50% no-repeat; }
-  /* line 180, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 230, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .aboutus .inner {
     display: block;
     text-align: center;
@@ -181,44 +235,44 @@ input[type='email'] {
     height: 595px;
     margin-left: auto;
     margin-right: auto; }
-    /* line 187, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+    /* line 237, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
     .aboutus .inner h2 {
       margin-top: 0px;
       padding-top: 20px; }
-    /* line 191, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+    /* line 241, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
     .aboutus .inner .profile {
       width: 50%;
       float: left; }
-      /* line 194, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+      /* line 244, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
       .aboutus .inner .profile .profilepic {
         display: block;
         width: 155px;
         height: 155px;
         margin-left: auto;
         margin-right: auto; }
-      /* line 201, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+      /* line 251, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
       .aboutus .inner .profile .bio {
         font-family: "ff-meta-web-pro", sans-serif;
         font-size: 18px; }
-    /* line 206, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+    /* line 256, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
     .aboutus .inner a.social {
       color: #27ae60;
       font-weight: 700; }
-      /* line 209, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+      /* line 259, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
       .aboutus .inner a.social:hover {
         text-decoration: none; }
 
-/* line 216, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+/* line 266, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
 .newsletter {
   border-bottom: 1px solid; }
 
-/* line 220, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+/* line 270, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
 .tickets {
   border-bottom: 1px solid;
   min-height: 100px;
   text-align: center; }
 
-/* line 226, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+/* line 276, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
 .supporter {
   min-height: 100px;
   width: 920px;
@@ -226,13 +280,13 @@ input[type='email'] {
   margin-right: auto;
   text-align: center;
   margin-bottom: 40px; }
-  /* line 233, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 283, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .supporter img {
     cursor: pointer;
     margin-right: 30px;
     margin-bottom: 30px; }
 
-/* line 240, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+/* line 290, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
 .handcreatedfooter {
   display: block;
   height: 100px;
@@ -240,13 +294,13 @@ input[type='email'] {
   border-top: 1px dashed #27ae60;
   margin-left: auto;
   margin-right: auto; }
-  /* line 247, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 297, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .handcreatedfooter .made-with-love {
     padding-top: 30px;
     text-align: center;
     width: 100%; }
 
-/* line 254, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+/* line 304, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
 .footer {
   display: block;
   width: 100%;
@@ -255,75 +309,75 @@ input[type='email'] {
   color: white;
   padding: 5px;
   font-family: "ff-meta-web-pro", sans-serif; }
-  /* line 262, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 312, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .footer .contact-link {
     color: white;
     padding: 0px 5px; }
-    /* line 265, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+    /* line 315, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
     .footer .contact-link:hover {
       text-decoration: none; }
 
 @media screen and (max-width: 768px) {
-  /* line 272, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 322, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .innerheader {
     width: 100%; }
 
-  /* line 275, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 325, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .topmiddle {
     width: 90%;
     margin: 0px auto; }
 
-  /* line 279, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 329, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .mainmiddle {
     height: auto; }
 
-  /* line 282, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 332, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .mainmiddle .inner .ticketsection {
     width: 90%;
     margin: 0px auto; }
 
-  /* line 286, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 336, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .mainmiddle .inner .save-the-steak {
     width: auto; }
 
-  /* line 289, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 339, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .email {
     width: auto !important; }
 
-  /* line 292, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 342, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   #map {
     height: 150px; }
 
-  /* line 295, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 345, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .mission .inner {
     width: 90%;
     margin: 0px auto;
     height: auto; }
 
-  /* line 300, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 350, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .aboutus .inner {
     width: 90%;
     margin: 0px auto;
     height: 1020px; }
 
-  /* line 305, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 355, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .aboutus .inner .profile {
     width: 90%;
     margin: 0px auto; }
 
-  /* line 309, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 359, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .supporter {
     width: 90%;
     margin: 0px auto; }
 
-  /* line 313, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 363, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .handcreatedfooter {
     width: 100%; } }
 @media screen and (max-width: 524px) {
-  /* line 319, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 369, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .aboutus .inner {
     height: 1190px; } }
 @media screen and (max-width: 362px) {
-  /* line 325, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
+  /* line 375, /Users/peterlih/Workspace/monstergrillio/source/css/monstergrill.scss */
   .aboutus .inner {
     height: 1245px; } }
